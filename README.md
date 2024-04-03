@@ -1,5 +1,31 @@
 # AI4Protein
 
+
+# Scaffold generate models
+
+| Release Date | Benchmark    | Reference                                                    | Repository                                             |
+|--------------|--------------|--------------------------------------------------------------|--------------------------------------------------------|
+| 2024-02-10   | Scaffold-Lab | [BioRxiv \(2024\): 2024-02](http://biorxiv.org/lookup/doi/10.1101/2024.02.10.579743) | [Github](https://github.com/Immortals-33/Scaffold-Lab) |
+
+| Release Date | Model Name        | Reference                                                    | Repository                                                   | Model Type                | Tasks Type                               |
+|--------------|-------------------|--------------------------------------------------------------|--------------------------------------------------------------|---------------------------|------------------------------------------|
+| 2023-01-29   | Genie             | [ArXiv:2301.12485](http://arxiv.org/abs/2301.12485)          | [Github](https://github.com/aqlaboratory/genie)              | Diffusion-based           | Unconditional                            |
+| 2023-02-05   | FrameDiff         | [ArXiv:2302.02277](http://arxiv.org/abs/2302.02277)          | [Github](https://github.com/jasonkyuyim/se3_diffusion)       | Diffusion-based           | Unconditional                            |
+| 2023-06-11   | RFdiffusion       | [Nature 620.7976 \(2023\): 1089](https://www.nature.com/articles/s41586-023-06415-8) | [Github](https://github.com/RosettaCommons/RFdiffusion)      | Diffusion-based           | General                                  |
+| 2023-06-30   | TDS               | [ArXiv:2306.17775](https://arxiv.org/abs/2306.17775)         | [Github](https://github.com/blt2114/twisted_diffusion_sampler) | Diffusion-based           | Conditional                              |
+| 2023-10-30   | GPDL              | [BioRxiv \(2023\): 2023-10](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1) | [Github](https://github.com/sirius777coder/GPDL)             | ESM-based                 | Conditional                              |
+| 2023-10-08   | FrameFlow         | [ArXiv:2310.05297](https://arxiv.org/abs/2310.05297)         | [Github](https://github.com/microsoft/protein-frame-flow)    | Flow-based                | Unconditional                            |
+| 2023-11-15   | Chroma            | [Nature 623.7989 \(2023\): 1070](https://www.nature.com/articles/s41586-023-06728-8) | [Github](https://github.com/generatebio/chroma)              | Diffusion-based           | General                                  |
+| 2022-06-27   | Ig-VAE            | [PLoS Comput. Biol 18.6 \(2022\): e1010271](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010271) | [Github](https://github.com/ProteinDesignLab/IgVAE)          | VAE-based                 | Unconditional                            |
+| 2022-07-01   | ProteinSGM        | [Nat. Comput. Sci 3.5 \(2023\): 382](https://www.nature.com/articles/s43588-023-00440-3#citeas) | [Gitlab](https://gitlab.com/mjslee0921/proteinsgm)           | Diffusion-based           | Unconditional, Inpainting                |
+| 2023-01-01   | DiffSDS           | [ArXiv:2301.09642](https://arxiv.org/abs/2301.09642)         | [Github](https://github.com/A4Bio/DiffSDS_open)              | Diffusion-based           | Inpainting                               |
+| 2023-05-10   | Protein Generator | [BioRxiv \(2023\): 2023-05](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1) | [Github](https://github.com/RosettaCommons/protein_generator) [Huggingface](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR) | Diffusion-based           | Unconditional, Inpainting                |
+| 2023-05-25   | Protpardelle      | [BioRxiv \(2023\): 2023-05](https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1.full) | [Github](https://github.com/ProteinDesignLab/protpardelle)   | Diffusion-based           | Unconditional, Side-chain conditional    |
+| 2024–03-07   | RFdiffusion-AA    | [Science \(2024\): eadl2528](https://www.science.org/doi/10.1126/science.adl2528) | [Github](https://github.com/baker-laboratory/rf_diffusion_all_atom) | Diffusion-based           | General                                  |
+| 2024–02-28   | PocketGen         | [BioRxiv \(2024\) 2024-02](https://doi.org/10.1101/2024.02.25.581968) | [Github](https://github.com/zaixizhang/PocketGen)            | Bilevel graph transformer | Inpainting                               |
+| 2022-07-21   | RFdesign          | [Science 377.6604 \(2022\): 387](https://www.science.org/doi/10.1126/science.abn2100) | [Github](https://github.com/RosettaCommons/RFDesign)         | AF2-based                 | Hallucination, Unconditional, Inpainting |
+
+
 # de novo peptide design
 | Release Date | Name             | Reference                                                    | Repository                                                   | Model Type                 | Experimental Validation | Notes                  |
 |--------------|------------------|--------------------------------------------------------------|--------------------------------------------------------------|----------------------------|-------------------------|------------------------|
