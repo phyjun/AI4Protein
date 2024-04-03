@@ -43,7 +43,7 @@
 | Name          | Source Type | Affinity Type | Dataset Size | Protein Type     | Download Link                                                | Notes             |
 |---------------|-------------|---------------|--------------|------------------|--------------------------------------------------------------|-------------------|
 | SKEMPI 2.0    | Dataset     | ΔΔG/ΔG        | 6193/346     | General          | [Link](https://life.bsc.es/pid/skempi2/database/index)       |                   |
-| ATLAS         | Dataset     | ΔΔG/ΔG        | 604/65       | MHC-RCR          | [Link](https://atlas.wenglab.org/web/downloads.php)          |                   |
+| ATLAS         | Dataset     | ΔΔG/ΔG        | 604/65       | MHC-TCR          | [Link](https://atlas.wenglab.org/web/downloads.php)          |                   |
 | GeoPPI        | Paper       | ΔΔG           | 6538         | General          | [Link](https://github.com/Liuxg16/GeoPPI/tree/master/data)   |                   |
 | mmCSM-PPI     | Paper       | ΔΔG           | 1340         | General          | [Link](https://biosig.lab.uq.edu.au/mmcsm_ppi/data)          | SKEMPI 2.0 + etc. |
 | TopNetTree    | Paper       | ΔΔG           | 1290         | Antigen-Antibody | [Link](https://codeocean.com/capsule/2202829/tree/v1)        | AB_Bind + etc.    |
